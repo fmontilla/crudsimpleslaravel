@@ -1,0 +1,528 @@
+.imobChart .funnel {
+    margin: 0 1.5em 2em;
+}
+
+.imobChart .funnel a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.imobChart .funnel .funnel-item {
+    text-align: center;
+    position: relative;
+    margin: 1em auto;
+    transition: 0.3s;
+}
+
+.imobChart .total {
+    position: absolute;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    width: 100%;
+    margin-top: 4px;
+    line-height: 1.1;
+    z-index: 1;
+}
+
+.imobChart .funnel strong {
+    font-size: 16px;
+}
+
+.imobChart .funnel a:hover .funnel-item {
+    transform: scale(1.1);
+}
+
+.imobChart .bar {
+    margin: auto;
+    height: 60px;
+}
+
+.imobChart .funnel-2 {
+    width: 90%;
+}
+
+.imobChart .funnel-3 {
+    width: 80%;
+}
+
+.imobChart .funnel-4 {
+    width: 70%;
+}
+
+.imobChart .funnel-5 {
+    width: 60%;
+}
+
+.imobChart .funnel-1 .bar {
+    background-color: #2b0505;
+    transform: perspective(100px) rotateX(-9deg);
+}
+
+.imobChart .funnel-2 .bar {
+    background-color: #330505;
+    transform: perspective(90px) rotateX(-9deg);
+}
+
+.imobChart .funnel-3 .bar {
+    background-color: #420606;
+    transform: perspective(80px) rotateX(-9deg);
+}
+
+.imobChart .funnel-4 .bar {
+    background-color: #4e0e0e;
+	transform: perspective(70px) rotateX(-9deg);
+}
+
+.imobChart .funnel-5 .bar {
+    background-color: #5f1b1b;
+    transform: perspective(60px) rotateX(-9deg);
+}
+
+.imobChart label {
+    font-size: 1.5em;
+    min-height: 50px;
+}
+
+.imobChart {
+    border: 0px;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 3px #EFEFEF;
+}
+
+.boxHome .panel {
+	height: 280px;
+}
+
+.boxHome .bntclique {
+    margin-top: 10px;
+    border: 1px solid #7b7b7b;
+    background-color: #efefef;
+    color: #7b7b7b;
+    border-radius: 5px;
+}
+
+.boxHome .bntclique:hover {
+	background-color: #5f1b1b;
+	border: 1px solid #7b7b7b;
+}
+
+.boxHome .icone {
+    font-size: 70px;
+}
+
+.boxHome.boxHomePrimary .panel {
+    height: 370px;
+}
+
+.boxHome.boxHomeSecundary .panel {
+    height: 170px;
+}
+
+.boxHome.boxHomeTerciary .panel {
+    height: 170px;
+}
+
+.boxHome .panel .panel-heading h3{
+    text-align: center;
+	font-variant: small-caps;
+}
+
+.boxHome .fc-header td {
+    white-space: nowrap;
+    padding: 0px 0 0px;
+}
+
+.boxHome .bodyagenda{
+    padding: 10px 15px!important;
+}
+
+.boxHome .imobChart {
+    padding: 1px 1px 0px 1px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.imobChart .funnel .funnel-item {
+    position: relative;
+    margin: 2px auto;
+    transition: 0.3s;
+}
+
+.boxHome .fc-widget-header,
+.boxHome .fc-widget-content {
+    border: 1px solid #F7F6F1;
+    line-height: 15px;
+}
+
+.boxHome .panel-body {
+	padding: 9px;
+}
+
+.boxHome .fc-day-number {
+	line-height: 16px;
+    float: none;
+    padding: 0 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.boxHome .fc-widget-content > div {
+    min-height: 39px!important;
+}
+
+div.calendar {
+    position: relative;
+    z-index: 10000;
+    width: 320px;
+    border: 1px solid #119c93;
+    border-radius: 4px;
+    box-shadow: 0 0 21px 0px #999;
+    overflow:hidden;
+}
+
+.calendar table {
+    border:0;
+    width: 100%;
+    background: #FFF;
+}
+
+.calendar table head {
+    background-color: #0aa699;
+    border: 0;
+    padding: 0;
+}
+
+.calendar thead .title {
+    background: #0aa699;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.calendar .button {
+    text-align: center;
+    padding: 2px;
+    background-color: #0aa699;
+    color:#FFF;
+}
+
+.calendar thead .hilite {
+    background: #0aa699;
+    color: #000000;
+    border: 0px solid #cccccc;
+    padding: 6px;
+    color: #FFF;
+}
+
+.calendar table .wn {
+    padding: 5px 7px 4px 8px;
+    border-right: 0;
+    background: #FFF;
+    font-size: 13px;
+}
+
+.calendar tbody .day {
+    width: 2em;
+    text-align: right;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+}
+
+.stepsForms {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: table;
+}
+
+.stepsForms fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 14px 14px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 0%;
+    /* position: absolute; */
+    display: table;
+    width: 100%;
+}
+
+.stepsForms fieldset:not(:first-of-type) {
+    display: none;
+}
+
+.stepsForms input, .stepsForms textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+.stepsForms .form-control {
+    width:100%!important;
+}
+
+.stepsForms .form-group .labelform {
+    float:left;
+}
+
+.stepsForms .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+.stepsForms .action-button:hover, .stepsForms .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.stepsForms .fs-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.stepsForms .fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.stepsForms #progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+
+.stepsForms #progressbar li {
+    list-style-type: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 50.00%;
+    float: left;
+    position: relative;
+}
+
+.stepsForms #progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 20px;
+    line-height: 20px;
+    display: block;
+    font-size: 10px;
+    color: #333;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+    position:relative;
+    z-index:1;
+}
+
+.stepsForms #progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: 0; /*put it behind the numbers*/
+}
+
+.stepsForms #progressbar li:first-child:after {
+    /*connector not needed before the first passo*/
+    content: none; 
+}
+
+.stepsForms #progressbar li.active:before, .stepsForms #progressbar li.active:after {
+    background: #27AE60;
+    color: white;
+}
+
+.select2-container{
+    width: 100%!important;
+}
+
+.cicleStatusImovel.status_1{ /* ativo*/
+    color: #5cb85c;
+}
+
+.cicleStatusImovel.status_2{ /*ficha*/
+    color: #7169EB;
+}
+
+.cicleStatusImovel.status_3{ /*provisorio*/
+    color: #F8DB00;
+}
+
+.select2-container .select2-selection--single {
+    height: 35px !important;
+}
+
+.formMessageError li{
+    list-style: none;
+}
+
+.form-group label {
+    margin-top: 0;
+    display: block;
+}
+
+#processando-modal .glyphicon-refresh-animate {
+    font-size: 92px;
+    height: 90px;
+    width: 108px;
+    color: orange;
+}
+
+.table.dataTable {
+    display: block;
+    overflow: auto;
+    width: fit-content!important;
+}
+
+.table.dataTable a .btn {
+    width: 100%;
+}
+
+.table.dataTable thead,
+.table.dataTable tfoot {
+    text-transform: uppercase;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+#main fieldset {
+    min-width: 0;
+    padding: 15px 15px;
+    margin: 0;
+    border: 0;
+    background-color: #f7f7f7;
+    margin-bottom: 25px;
+    border: 1px solid #dedcdc;
+    margin-top: 10px;
+}
+
+#main fieldset legend {
+    display: table;
+    width: auto;
+    padding: 1px 20px 0px 20px;
+    margin-bottom: 7px;
+    font-size: 18px;
+    line-height: inherit;
+    color: #636363;
+    background-color: #f7f7f7;
+    border-radius: 3px 3px 0 0;
+    font-weight: bold;
+    position: relative;
+    bottom: 12px;
+    border-top: 1px solid #dedcdc;
+    border-left: 1px solid #dedcdc;
+    border-right: 1px solid #dedcdc;
+    border-bottom: 0;
+}
+
+.custom-panel {
+    background: transparent;
+}
+
+.custom-panel > .panel-heading {
+    background: transparent;
+    padding: 0 10px;
+    border-bottom: 2px solid #919191;
+}
+
+.custom-panel > .panel-heading > h3 {
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(204,204,204,1);
+    background-color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    font-size: 18px;
+    padding: 10px;
+    height: 100%;
+    color: #000000;
+}
+
+.custom-panel > .panel-body {
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(204,204,204,1);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    background-color: #FFFFFF;
+    margin-right: 10px;
+    margin-left: 10px;
+    min-height: 170px;
+    padding: 20px;
+}
+
+.radar_parcerias .item_imovel .thumbnail .caption .content{
+    height: 80px;
+}
+
+.drop-file input {
+    display: none
+}
+
+.drop-file {
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 7px;
+    border: 5px dashed #AAAAAA;
+    background: #EEEEEE;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.drop-file .fa-close {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    background-color: white;
+    padding: 5px;
+}
+
+.drop-file img {
+    width: 100%;
+    height: 100%;
+}
+
+.pagina-financiamento-bancos img {
+    max-width: 125px;
+    max-height: 125px;
+    border-radius: 100px;
+}
+
+.pagina-financiamento-bancos {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.note-editor .note-toolbar {
+    z-index: 50 !important;
+}
+
+
+.input-group .input-group-btn .btn{
+    margin-bottom: 0;
+}

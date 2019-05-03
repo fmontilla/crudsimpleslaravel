@@ -1,0 +1,99 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.wrap .row_planos .container-itens-plano{
+		width: 100%;
+	}
+	.wrap .row_planos .container-itens-plano .item-plano .thumbnail .caption {
+	    padding: 15px 15px 26px 15px;
+	}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.wrap .header .navmain .navbar-nav>li>a {
+	    font-size: 15px;
+	}
+	.wrap .row_planos .container-itens-plano {
+	    width: 100%;
+	}
+	.wrap .row_planos .container-itens-plano .item-plano .thumbnail .caption {
+	    padding: 15px 10px 26px 10px;
+	}
+	.wrap .row_planos .container-itens-plano .item-plano:before {
+	    top: -44px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.jumbotron p {
+	    font-size: 16px;
+	}
+	.wrap .header .jumbotron .row-avaliacao .gratis30dias {
+    	font-size: 22px;
+    }
+    .wrap .header .jumbotron {
+    	min-height: 461px;
+    }
+    .wrap .row_planos .header-plano .title_row {
+	    margin: 0;
+	    font-size: 20px;
+	}
+    .wrap .row_contato .title_row, 
+    .wrap .row_site .title_row, 
+    .wrap .row_conheca .title_row {
+    	font-size: 16px;
+    }
+    .wrap .row_contato .title_row p, 
+    .wrap .row_site .title_row p, 
+    .wrap .row_conheca .title_row p{
+    	padding-top: 10px;
+    }
+
+    .wrap .row_site {
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	.wrap .row_site .site-modelo {
+	    min-height: 150px;
+	}
+    .wrap .row_contato {
+	    width: 94%;
+	    margin: auto;
+	}
+	.wrap .footer .table-cell{
+		display: block;
+		text-align: center;
+		padding-bottom: 14px;
+	}
+	.wrap .footer h3{
+		text-align: center;
+	}
+	.wrap .footer .container-social-icons {
+	    text-align: center;
+	}
+	.wrap .row_planos .container-itens-plano {
+	    width: 100%;
+	}
+	.wrap .row_planos .container-itens-plano .item-plano:before{
+		display: none;
+	}
+	.wrap .row_planos .container-itens-plano .item-plano .thumbnail .caption h3 {
+	    font-size: 30px;
+	}
+	.wrap .row_planos .container-itens-plano .item-plano .thumbnail .caption {
+	    padding: 15px 10px 26px 10px;
+	}
+	.wrap .row_conheca .content-mais-item {
+		width: 100%;
+		height: auto;
+    }
+    .wrap .header .navmain .navbar-nav>li>a {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+
+	.wrap .header .jumbotron{
+		background-size: inherit;
+	}
+
+
+}

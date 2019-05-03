@@ -1,0 +1,4 @@
+{
+    "plugins": ["transform-class-properties", "transform-exponentiation-operator"],
+    "presets": ["@babel/env"]
+}

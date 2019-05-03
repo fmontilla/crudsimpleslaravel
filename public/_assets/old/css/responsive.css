@@ -1,0 +1,19 @@
+/*@media (max-width: 998px) {
+
+	.content-mais-item { height: 380px; }
+	.content-planos-item { margin-bottom: 30px; }
+
+}
+
+
+@media (max-width: 578px) {
+
+	.content-mais-item { height: 300px; }
+	.responsive-clear { display: table; }
+	.navbar-brand { width: 50%; float: right; }
+
+	.nav-item { width: 100%; text-align: center; }
+	.nav-item > a { padding: 10px; }
+
+}
+*/
